@@ -1,0 +1,65 @@
+body {
+  background: #c0c0c0;
+  width: 100%;
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+/*=================MENU DE NAVEGAÇÃO=================*/
+
+header {
+  border: 1px solid red;
+  width: 1080px;
+  height: 201px;
+  background: #000000;
+  align-items: center;
+}
+
+header img {
+  width: 200px;
+  height: 200px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  padding: 10px 20px;
+  margin: 20px;
+}
+
+header a:hover {
+  border-left: 4px solid orange;
+  color: orange;
+  transition: 0.2s;
+}
+
+#navegacao {
+  margin-right: 70px;
+  margin-top: 150px;
+  float: right;
+}
+
+#logo {
+  width: 201px;
+  height: 200px;
+  display: inline;
+}
+
+/*====================PRINCIPAL=====================*/
+
+aside {
+}
+
+/*====================RODAPÉ=====================*/
+footer {
+  width: 1080px;
+  height: 200px;
+
+  background-color: #000000;
+}
